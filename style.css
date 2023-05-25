@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+header h1 {
+  background-color: lightskyblue;
+}
+
+header i {
+  background-color: lightskyblue;
+  color: whitesmoke;
+}
+
+.content-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 3rem 0 10px;
+}
+
+.container-luar {
+  background-color: white;
+}
+p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.persegi {
+  background-color: lightskyblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.persegi h5 {
+  background-color: lightskyblue;
+  color: white;
+  font-size: 1rem;
+}
+
+.panjang {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: blue;
+  font-size: 1rem;
+}
+
+.luas-persegi {
+  background-color: lightskyblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 4rem;
+  margin: 1rem;
+}
+
+.luas-persegi h5 {
+  background-color: lightskyblue;
+  color: white;
+  font-size: 2rem;
+}
+
+.kotak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+
+.rumus {
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.rumus-persegi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hitung-luas-persegi {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.jelas {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.jawaban {
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.jawaban input {
+  width: 50rem;
+  height: 2rem;
+  border-radius: 4px;
+}
+
+.hitung {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.hitung button {
+  background-color: lightskyblue;
+  border-radius: 2px;
+  font-size: 20px;
+  border: none;
+  width: 5rem;
+  height: 3rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.reset {
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 1rem;
+}
+.reset button {
+  background-color: orange;
+  border-radius: 2px;
+  font-size: 20px;
+  border: none;
+  width: 5rem;
+  height: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
